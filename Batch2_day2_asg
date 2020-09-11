@@ -1,0 +1,44 @@
+//Q1. Program to find particular character in a string //
+let string="Heythere";
+console.log(string);
+console.log(string.indexOf("t"));
+
+OUTPUT : 3
+
+
+//Q2. Program to convert minutes to seconds
+let minutes = 10;
+seconds = minutes * 60;
+console.log(" 10 " + " Minutes " + " into seconds is " + seconds);
+
+//OUTPUT : 10  Minutes  into seconds is 600
+
+
+//Q3. Program to search element in a array of strings
+var arrayyy = [1, 2, 3, -40, 5];
+var ans = arrayyy.find(function (element) {
+return element < 0;
+}); 
+console.log(ans);
+
+//OUTPUT : -40
+
+
+//Q4. Program to display only elements containing 'a' in the term of array
+let array = ["apple", "butter" , "title"];
+console.log(array[0]);
+
+//OUTPUT : apple
+
+
+//Q5. Print an array in reverse order
+Array = ["Animal","Fruits","Vegetables"].reverse();
+console.log(Array);
+
+//OUTPUT :
+//  (3) ["Vegetables", "Fruits", "Animal"]
+// 0: "Vegetables"
+// 1: "Fruits"
+// 2: "Animal"
+// length: 3
+// __proto__: Array(0)
